@@ -21,12 +21,19 @@ project path :https://github.com/manishhegde/Melanoma-Detection-Assignment
 
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- Conclusion 1 from the analysis:The model is overfitting because we can also see difference in loss functions in training & test around the 10-11th epoch
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+The accuracy is just around 85-88% because there are enough features to remember the pattern
+- Conclusion 2 from the analysis:There is small improvement in accuracy but we can definitely see the overfitting problem has solved due to data augmentation
+We can increase the epochs to increase the accuracy 
+- Conclusion 3 from the analysis: Accuracy on training data has decreased by using Augmentor library, and its now underfit 
+                                  Model is good without Augmentor
+                                  The Model can be further improved by tuning the hyperparameter
+
+
+
+
+
 
 
 ## Technologies Used
